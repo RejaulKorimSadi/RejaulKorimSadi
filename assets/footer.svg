@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="90" viewBox="0 0 1200 90">
+<style>.f{font:500 15px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}.w{animation:wave 6s ease-in-out infinite}@keyframes wave{0%,100%{transform:translateX(0)}50%{transform:translateX(-40px)}}</style>
+<defs><linearGradient id="fg" x1="0" x2="1"><stop offset="0" stop-color="#56B4E9"/><stop offset=".5" stop-color="#009E73"/><stop offset="1" stop-color="#E69F00"/></linearGradient></defs>
+<path class="w" d="M-40 30 C 160 0, 360 60, 560 30 S 960 0, 1240 30" fill="none" stroke="url(#fg)" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+<text x="600" y="72" text-anchor="middle" class="f">Measure the failure before you trust the fluency.</text>
+</svg>

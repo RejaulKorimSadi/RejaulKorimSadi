@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" viewBox="0 0 600 350">
+<defs><linearGradient id="ga" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#132238"/></linearGradient></defs>
+<style>
+.kick{font:700 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#56B4E9;letter-spacing:2.2px}
+.stat{font:700 11px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6;letter-spacing:1px}
+.title{font:750 25px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+.body{font:400 15px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
+.big{font:800 34px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+.bigl{font:500 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
+.blab{font:500 12.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
+.bval{font:700 13px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+.chip{font:600 11.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#c9d6e6}
+.kvv{font:800 24px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+</style>
+<clipPath id="ca"><rect width="600" height="350" rx="16"/></clipPath>
+<g clip-path="url(#ca)"><rect width="600" height="350" fill="url(#ga)"/><rect x="0" y="0" width="600" height="5" fill="#56B4E9"/></g>
+<rect x=".5" y=".5" width="599" height="349" rx="16" fill="none" stroke="#24344c"/>
+<text x="32" y="44" class="kick">STUDY IV · 14 MODELS</text>
+<rect x="445" y="28" width="123" height="24" rx="12" fill="none" stroke="#56B4E9"/>
+<text x="506.5" y="44" class="stat" text-anchor="middle">CODE + DATA</text>
+<text x="32" y="86" class="title">The Attention Ablation Test</text>
+<text x="32" y="116" class="title">Does attention cause hallucination?</text>
+<text x="32" y="150" class="body">Matched Pythia/Mamba pairs, 130M to 2.8B.</text><text x="32" y="174" class="body">Same data, tokenizer and size; only</text><text x="32" y="198" class="body">attention differs.</text>
+<text x="568" y="160" class="big" text-anchor="end">+38 pts</text>
+<text x="568" y="180" class="bigl" text-anchor="end">attention vs. state-space</text>
+<text x="32" y="239" class="blab">Attention</text><rect x="150" y="228" width="300" height="14" rx="7" fill="#1d2c42"/><rect x="150" y="228" width="273.3" height="14" rx="7" fill="#56B4E9"><animate attributeName="width" values="0;273.3" keyTimes="0;1" dur="1.4s" begin="0s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/></rect><text x="568" y="240" class="bval" text-anchor="end">91.1%</text><text x="32" y="265" class="blab">State-space</text><rect x="150" y="254" width="300" height="14" rx="7" fill="#1d2c42"/><rect x="150" y="254" width="158.7" height="14" rx="7" fill="#E69F00"><animate attributeName="width" values="0;158.7" keyTimes="0;1" dur="1.4s" begin="0s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/></rect><text x="568" y="266" class="bval" text-anchor="end">52.9%</text>
+<rect x="32" y="310" width="85" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="74.5" y="325" class="chip" text-anchor="middle">PyTorch</text><rect x="125" y="310" width="130" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="190.0" y="325" class="chip" text-anchor="middle">Hugging Face</text><rect x="263" y="310" width="76" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="301.0" y="325" class="chip" text-anchor="middle">Pythia</text><rect x="347" y="310" width="67" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="380.5" y="325" class="chip" text-anchor="middle">Mamba</text>
+</svg>

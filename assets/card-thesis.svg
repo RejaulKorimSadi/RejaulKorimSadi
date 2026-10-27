@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" viewBox="0 0 600 350">
+<defs><linearGradient id="gf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#132238"/></linearGradient></defs>
+<style>
+.kick{font:700 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#E69F00;letter-spacing:2.2px}
+.stat{font:700 11px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6;letter-spacing:1px}
+.title{font:750 25px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+.body{font:400 15px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
+.big{font:800 34px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+.bigl{font:500 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
+.blab{font:500 12.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
+.bval{font:700 13px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+.chip{font:600 11.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#c9d6e6}
+.kvv{font:800 24px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+</style>
+<clipPath id="cf"><rect width="600" height="350" rx="16"/></clipPath>
+<g clip-path="url(#cf)"><rect width="600" height="350" fill="url(#gf)"/><rect x="0" y="0" width="600" height="5" fill="#E69F00"/></g>
+<rect x=".5" y=".5" width="599" height="349" rx="16" fill="none" stroke="#24344c"/>
+<text x="32" y="44" class="kick">B.SC. THESIS · 2026</text>
+<rect x="463" y="28" width="105" height="24" rx="12" fill="none" stroke="#E69F00"/>
+<text x="515.5" y="44" class="stat" text-anchor="middle">5 STUDIES</text>
+<text x="32" y="86" class="title">MRI of a Mad Machine</text>
+<text x="32" y="116" class="title">The structural origins of hallucination</text>
+<text x="32" y="150" class="body">Five studies, one finding: these models</text><text x="32" y="174" class="body">answer to the statistical shape of their</text><text x="32" y="198" class="body">input, not to whether the output is true.</text>
+<text x="568" y="160" class="big" text-anchor="end">3</text>
+<text x="568" y="180" class="bigl" text-anchor="end">papers under review</text>
+<text x="32" y="248" class="kvv">23</text><text x="32" y="270" class="bigl">models tested</text><text x="212" y="248" class="kvv">5,620</text><text x="212" y="270" class="bigl">scored answers</text><text x="392" y="248" class="kvv">270,000</text><text x="392" y="270" class="bigl">model ratings</text>
+<rect x="32" y="310" width="139" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="101.5" y="325" class="chip" text-anchor="middle">Hallucination</text><rect x="179" y="310" width="130" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="244.0" y="325" class="chip" text-anchor="middle">Open science</text><rect x="317" y="310" width="130" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="382.0" y="325" class="chip" text-anchor="middle">Reproducible</text>
+</svg>

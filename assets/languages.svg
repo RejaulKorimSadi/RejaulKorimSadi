@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260">
+<defs><linearGradient id="gl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#132238"/></linearGradient>
+<clipPath id="cl"><rect width="600" height="260" rx="16"/></clipPath></defs>
+<style>.t{font:700 19px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}.lab{font:500 14px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}.val{font:700 15px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+.lg{font:600 13px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#c9d6e6}.pc{font-weight:400;fill:#9aa9bb}.ring{font:800 26px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}.rl{font:500 11px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
+.st{font:400 10.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#6f8096}</style>
+<g clip-path="url(#cl)"><rect width="600" height="260" fill="url(#gl)"/><rect width="600" height="5" fill="#56B4E9"/></g>
+<rect x=".5" y=".5" width="599" height="259" rx="16" fill="none" stroke="#24344c"/>
+<text x="28" y="48" class="t">Most Used Languages</text>
+<text x="28" y="130" class="lab">Language stats appear after the first workflow run.</text></svg>

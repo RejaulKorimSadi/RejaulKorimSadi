@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" viewBox="0 0 600 350">
+<defs><linearGradient id="ge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#132238"/></linearGradient></defs>
+<style>
+.kick{font:700 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#56B4E9;letter-spacing:2.2px}
+.stat{font:700 11px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6;letter-spacing:1px}
+.title{font:750 25px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+.body{font:400 15px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
+.big{font:800 34px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+.bigl{font:500 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
+.blab{font:500 12.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
+.bval{font:700 13px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+.chip{font:600 11.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#c9d6e6}
+.kvv{font:800 24px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+</style>
+<clipPath id="ce"><rect width="600" height="350" rx="16"/></clipPath>
+<g clip-path="url(#ce)"><rect width="600" height="350" fill="url(#ge)"/><rect x="0" y="0" width="600" height="5" fill="#56B4E9"/></g>
+<rect x=".5" y=".5" width="599" height="349" rx="16" fill="none" stroke="#24344c"/>
+<text x="32" y="44" class="kick">STUDY III · 270,000 RATINGS</text>
+<rect x="436" y="28" width="132" height="24" rx="12" fill="none" stroke="#56B4E9"/>
+<text x="502.0" y="44" class="stat" text-anchor="middle">UNDER REVIEW</text>
+<text x="32" y="86" class="title">LLMs as UI Judges</text>
+<text x="32" y="116" class="title">Disagreement is mostly offset</text>
+<text x="32" y="150" class="body">Three models vs. a design heuristic</text><text x="32" y="174" class="body">on 15,000 RICO screens. Removing a</text><text x="32" y="198" class="body">constant offset doubles agreement.</text>
+<text x="568" y="160" class="big" text-anchor="end">2.2×</text>
+<text x="568" y="180" class="bigl" text-anchor="end">kappa after offset fix</text>
+<text x="32" y="239" class="blab">Raw κ</text><rect x="150" y="228" width="300" height="14" rx="7" fill="#1d2c42"/><rect x="150" y="228" width="99.0" height="14" rx="7" fill="#7f8ea3"><animate attributeName="width" values="0;99.0" keyTimes="0;1" dur="1.4s" begin="0s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/></rect><text x="568" y="240" class="bval" text-anchor="end">0.033</text><text x="32" y="265" class="blab">Offset-fixed</text><rect x="150" y="254" width="300" height="14" rx="7" fill="#1d2c42"/><rect x="150" y="254" width="216.0" height="14" rx="7" fill="#56B4E9"><animate attributeName="width" values="0;216.0" keyTimes="0;1" dur="1.4s" begin="0s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/></rect><text x="568" y="266" class="bval" text-anchor="end">0.072</text>
+<rect x="32" y="310" width="58" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="61.0" y="325" class="chip" text-anchor="middle">RICO</text><rect x="98" y="310" width="103" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="149.5" y="325" class="chip" text-anchor="middle">Cohen&#x27;s κ</text><rect x="209" y="310" width="121" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="269.5" y="325" class="chip" text-anchor="middle">Vision LLMs</text>
+</svg>

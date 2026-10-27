@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" viewBox="0 0 600 350">
+<defs><linearGradient id="gd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#132238"/></linearGradient></defs>
+<style>
+.kick{font:700 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#D55E00;letter-spacing:2.2px}
+.stat{font:700 11px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6;letter-spacing:1px}
+.title{font:750 25px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+.body{font:400 15px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
+.big{font:800 34px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+.bigl{font:500 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
+.blab{font:500 12.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
+.bval{font:700 13px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+.chip{font:600 11.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#c9d6e6}
+.kvv{font:800 24px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+</style>
+<clipPath id="cd"><rect width="600" height="350" rx="16"/></clipPath>
+<g clip-path="url(#cd)"><rect width="600" height="350" fill="url(#gd)"/><rect x="0" y="0" width="600" height="5" fill="#D55E00"/></g>
+<rect x=".5" y=".5" width="599" height="349" rx="16" fill="none" stroke="#24344c"/>
+<text x="32" y="44" class="kick">STUDY II · 5 MODELS · 5,620</text>
+<rect x="436" y="28" width="132" height="24" rx="12" fill="none" stroke="#D55E00"/>
+<text x="502.0" y="44" class="stat" text-anchor="middle">UNDER REVIEW</text>
+<text x="32" y="86" class="title">Wrong with Confidence</text>
+<text x="32" y="116" class="title">Wording and identity shape answers</text>
+<text x="32" y="150" class="body">Vague prompts raise error; 77% of wrong</text><text x="32" y="174" class="body">answers carry no hedge; a claimed physician</text><text x="32" y="198" class="body">gets 43% more explanation.</text>
+<text x="568" y="160" class="big" text-anchor="end">×10.5</text>
+<text x="568" y="180" class="bigl" text-anchor="end">odds of error, vague wording</text>
+<text x="32" y="239" class="blab">Clear</text><rect x="150" y="228" width="300" height="14" rx="7" fill="#1d2c42"/><rect x="150" y="228" width="119.7" height="14" rx="7" fill="#56B4E9"><animate attributeName="width" values="0;119.7" keyTimes="0;1" dur="1.4s" begin="0s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/></rect><text x="568" y="240" class="bval" text-anchor="end">39.9%</text><text x="32" y="265" class="blab">Ambiguous</text><rect x="150" y="254" width="300" height="14" rx="7" fill="#1d2c42"/><rect x="150" y="254" width="200.1" height="14" rx="7" fill="#E69F00"><animate attributeName="width" values="0;200.1" keyTimes="0;1" dur="1.4s" begin="0s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/></rect><text x="568" y="266" class="bval" text-anchor="end">66.7%</text>
+<rect x="32" y="310" width="121" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="92.5" y="325" class="chip" text-anchor="middle">OSF pre-reg</text><rect x="161" y="310" width="130" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="226.0" y="325" class="chip" text-anchor="middle">Mixed models</text><rect x="299" y="310" width="58" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="328.0" y="325" class="chip" text-anchor="middle">Bias</text>
+</svg>
