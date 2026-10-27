@@ -1,28 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" viewBox="0 0 600 350">
-<defs><linearGradient id="gf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#132238"/></linearGradient></defs>
+<defs>
+<linearGradient id="bgf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b17"/><stop offset="1" stop-color="#111a36"/></linearGradient>
+<linearGradient id="bdf" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#FB923C"/><stop offset=".5" stop-color="#F472B6"/><stop offset="1" stop-color="#FB923C"/><animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="9s" repeatCount="indefinite"/></linearGradient>
+<linearGradient id="stf" x1="0" x2="1"><stop offset="0" stop-color="#FB923C"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+<linearGradient id="barf0" x1="0" x2="1"><stop offset="0" stop-color="#FB923C"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+<linearGradient id="barf1" x1="0" x2="1"><stop offset="0" stop-color="#FBBF24"/><stop offset="1" stop-color="#FB923C"/></linearGradient>
+<filter id="blf" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+<clipPath id="cf"><rect width="600" height="350" rx="18"/></clipPath>
+<linearGradient id="shf" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+</defs>
 <style>
-.kick{font:700 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#E69F00;letter-spacing:2.2px}
-.stat{font:700 11px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6;letter-spacing:1px}
-.title{font:750 25px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
-.body{font:400 15px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
-.big{font:800 34px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
-.bigl{font:500 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
-.blab{font:500 12.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
-.bval{font:700 13px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
-.chip{font:600 11.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#c9d6e6}
-.kvv{font:800 24px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+.kick{font:800 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#FB923C;letter-spacing:2.4px}
+.stat{font:700 11px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#f1f5fb;letter-spacing:1.2px}
+.title{font:800 25px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#f1f5fb}
+.body{font:400 15px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#a3b1c6}
+.big{font:800 36px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif}
+.bigl{font:500 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#a3b1c6}
+.blab{font:500 12.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#a3b1c6}
+.bval{font:700 13px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#f1f5fb}
+.chip{font:600 11.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#d6def0}
+.kvv{font:800 26px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif}
 </style>
-<clipPath id="cf"><rect width="600" height="350" rx="16"/></clipPath>
-<g clip-path="url(#cf)"><rect width="600" height="350" fill="url(#gf)"/><rect x="0" y="0" width="600" height="5" fill="#E69F00"/></g>
-<rect x=".5" y=".5" width="599" height="349" rx="16" fill="none" stroke="#24344c"/>
-<text x="32" y="44" class="kick">B.SC. THESIS · 2026</text>
-<rect x="463" y="28" width="105" height="24" rx="12" fill="none" stroke="#E69F00"/>
-<text x="515.5" y="44" class="stat" text-anchor="middle">5 STUDIES</text>
-<text x="32" y="86" class="title">MRI of a Mad Machine</text>
-<text x="32" y="116" class="title">The structural origins of hallucination</text>
-<text x="32" y="150" class="body">Five studies, one finding: these models</text><text x="32" y="174" class="body">answer to the statistical shape of their</text><text x="32" y="198" class="body">input, not to whether the output is true.</text>
-<text x="568" y="160" class="big" text-anchor="end">3</text>
-<text x="568" y="180" class="bigl" text-anchor="end">papers under review</text>
-<text x="32" y="248" class="kvv">23</text><text x="32" y="270" class="bigl">models tested</text><text x="212" y="248" class="kvv">5,620</text><text x="212" y="270" class="bigl">scored answers</text><text x="392" y="248" class="kvv">270,000</text><text x="392" y="270" class="bigl">model ratings</text>
-<rect x="32" y="310" width="139" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="101.5" y="325" class="chip" text-anchor="middle">Hallucination</text><rect x="179" y="310" width="130" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="244.0" y="325" class="chip" text-anchor="middle">Open science</text><rect x="317" y="310" width="130" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="382.0" y="325" class="chip" text-anchor="middle">Reproducible</text>
+<g clip-path="url(#cf)">
+<rect width="600" height="350" fill="url(#bgf)"/>
+<circle cx="560" cy="40" r="90" fill="#FB923C" opacity=".22" filter="url(#blf)"><animate attributeName="r" values="80;110;80" dur="7s" repeatCount="indefinite"/></circle>
+<circle cx="40" cy="330" r="70" fill="#F472B6" opacity=".16" filter="url(#blf)"><animate attributeName="cx" values="40;140;40" dur="9s" repeatCount="indefinite"/></circle>
+<rect x="-260" y="-40" width="220" height="430" fill="url(#shf)" transform="skewX(-18)"><animate attributeName="x" values="-300;900;900" keyTimes="0;.45;1" dur="8s" begin="7.5s" repeatCount="indefinite"/></rect>
+</g>
+<rect x="1" y="1" width="598" height="348" rx="18" fill="none" stroke="url(#bdf)" stroke-width="2"/>
+<text x="32" y="46" class="kick">B.SC. THESIS</text>
+<rect x="463" y="28" width="105" height="26" rx="13" fill="#161f3d" stroke="url(#stf)"/>
+<text x="515" y="45" class="stat" text-anchor="middle">5 STUDIES</text>
+<text x="32" y="88" class="title">MRI of a Mad Machine</text>
+<text x="32" y="118" class="title">The structural origins of hallucination</text>
+<text x="32" y="152" class="body">Five studies, one finding: these models</text><text x="32" y="176" class="body">answer to the statistical shape of their</text><text x="32" y="200" class="body">input, not to whether the output is true.</text>
+<text x="568" y="164" class="big" text-anchor="end" fill="url(#stf)">5</text>
+<text x="568" y="184" class="bigl" text-anchor="end">connected studies</text>
+<text x="32" y="250" class="kvv" fill="url(#stf)">23</text><text x="32" y="272" class="bigl">models tested</text><text x="212" y="250" class="kvv" fill="url(#stf)">5,620</text><text x="212" y="272" class="bigl">scored answers</text><text x="392" y="250" class="kvv" fill="url(#stf)">270,000</text><text x="392" y="272" class="bigl">model ratings</text><rect x="32" y="308" width="136" height="24" rx="12" fill="#161f3d" stroke="#26345a"/><text x="100" y="325" class="chip" text-anchor="middle">Hallucination</text><rect x="175.8" y="308" width="127" height="24" rx="12" fill="#161f3d" stroke="#26345a"/><text x="239" y="325" class="chip" text-anchor="middle">Open science</text><rect x="311.0" y="308" width="127" height="24" rx="12" fill="#161f3d" stroke="#26345a"/><text x="375" y="325" class="chip" text-anchor="middle">Reproducible</text>
 </svg>

@@ -1,28 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" viewBox="0 0 600 350">
-<defs><linearGradient id="ge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#132238"/></linearGradient></defs>
+<defs>
+<linearGradient id="bge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b17"/><stop offset="1" stop-color="#111a36"/></linearGradient>
+<linearGradient id="bde" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#A78BFA"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/><animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="9s" repeatCount="indefinite"/></linearGradient>
+<linearGradient id="ste" x1="0" x2="1"><stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<linearGradient id="bare0" x1="0" x2="1"><stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<linearGradient id="bare1" x1="0" x2="1"><stop offset="0" stop-color="#FBBF24"/><stop offset="1" stop-color="#FB923C"/></linearGradient>
+<filter id="ble" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+<clipPath id="ce"><rect width="600" height="350" rx="18"/></clipPath>
+<linearGradient id="she" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+</defs>
 <style>
-.kick{font:700 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#56B4E9;letter-spacing:2.2px}
-.stat{font:700 11px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6;letter-spacing:1px}
-.title{font:750 25px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
-.body{font:400 15px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
-.big{font:800 34px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
-.bigl{font:500 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
-.blab{font:500 12.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
-.bval{font:700 13px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
-.chip{font:600 11.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#c9d6e6}
-.kvv{font:800 24px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+.kick{font:800 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#A78BFA;letter-spacing:2.4px}
+.stat{font:700 11px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#f1f5fb;letter-spacing:1.2px}
+.title{font:800 25px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#f1f5fb}
+.body{font:400 15px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#a3b1c6}
+.big{font:800 36px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif}
+.bigl{font:500 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#a3b1c6}
+.blab{font:500 12.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#a3b1c6}
+.bval{font:700 13px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#f1f5fb}
+.chip{font:600 11.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#d6def0}
+.kvv{font:800 26px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif}
 </style>
-<clipPath id="ce"><rect width="600" height="350" rx="16"/></clipPath>
-<g clip-path="url(#ce)"><rect width="600" height="350" fill="url(#ge)"/><rect x="0" y="0" width="600" height="5" fill="#56B4E9"/></g>
-<rect x=".5" y=".5" width="599" height="349" rx="16" fill="none" stroke="#24344c"/>
-<text x="32" y="44" class="kick">STUDY III · 270,000 RATINGS</text>
-<rect x="436" y="28" width="132" height="24" rx="12" fill="none" stroke="#56B4E9"/>
-<text x="502.0" y="44" class="stat" text-anchor="middle">UNDER REVIEW</text>
-<text x="32" y="86" class="title">LLMs as UI Judges</text>
-<text x="32" y="116" class="title">Disagreement is mostly offset</text>
-<text x="32" y="150" class="body">Three models vs. a design heuristic</text><text x="32" y="174" class="body">on 15,000 RICO screens. Removing a</text><text x="32" y="198" class="body">constant offset doubles agreement.</text>
-<text x="568" y="160" class="big" text-anchor="end">2.2×</text>
-<text x="568" y="180" class="bigl" text-anchor="end">kappa after offset fix</text>
-<text x="32" y="239" class="blab">Raw κ</text><rect x="150" y="228" width="300" height="14" rx="7" fill="#1d2c42"/><rect x="150" y="228" width="99.0" height="14" rx="7" fill="#7f8ea3"><animate attributeName="width" values="0;99.0" keyTimes="0;1" dur="1.4s" begin="0s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/></rect><text x="568" y="240" class="bval" text-anchor="end">0.033</text><text x="32" y="265" class="blab">Offset-fixed</text><rect x="150" y="254" width="300" height="14" rx="7" fill="#1d2c42"/><rect x="150" y="254" width="216.0" height="14" rx="7" fill="#56B4E9"><animate attributeName="width" values="0;216.0" keyTimes="0;1" dur="1.4s" begin="0s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/></rect><text x="568" y="266" class="bval" text-anchor="end">0.072</text>
-<rect x="32" y="310" width="58" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="61.0" y="325" class="chip" text-anchor="middle">RICO</text><rect x="98" y="310" width="103" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="149.5" y="325" class="chip" text-anchor="middle">Cohen&#x27;s κ</text><rect x="209" y="310" width="121" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="269.5" y="325" class="chip" text-anchor="middle">Vision LLMs</text>
+<g clip-path="url(#ce)">
+<rect width="600" height="350" fill="url(#bge)"/>
+<circle cx="560" cy="40" r="90" fill="#A78BFA" opacity=".22" filter="url(#ble)"><animate attributeName="r" values="80;110;80" dur="7s" repeatCount="indefinite"/></circle>
+<circle cx="40" cy="330" r="70" fill="#22D3EE" opacity=".16" filter="url(#ble)"><animate attributeName="cx" values="40;140;40" dur="9s" repeatCount="indefinite"/></circle>
+<rect x="-260" y="-40" width="220" height="430" fill="url(#she)" transform="skewX(-18)"><animate attributeName="x" values="-300;900;900" keyTimes="0;.45;1" dur="8s" begin="6s" repeatCount="indefinite"/></rect>
+</g>
+<rect x="1" y="1" width="598" height="348" rx="18" fill="none" stroke="url(#bde)" stroke-width="2"/>
+<text x="32" y="46" class="kick">270,000 RATINGS · 15,000 SCREENS</text>
+<rect x="436" y="28" width="132" height="26" rx="13" fill="#161f3d" stroke="url(#ste)"/>
+<text x="502" y="45" class="stat" text-anchor="middle">PAPER + CODE</text>
+<text x="32" y="88" class="title">LLMs as UI Judges</text>
+<text x="32" y="118" class="title">Disagreement is mostly offset</text>
+<text x="32" y="152" class="body">Three models vs. a design heuristic</text><text x="32" y="176" class="body">on RICO screens. Removing a constant</text><text x="32" y="200" class="body">offset doubles agreement.</text>
+<text x="568" y="164" class="big" text-anchor="end" fill="url(#ste)">2.2×</text>
+<text x="568" y="184" class="bigl" text-anchor="end">kappa after offset fix</text>
+<text x="32" y="241" class="blab">Raw κ</text><rect x="150" y="230" width="300" height="14" rx="7" fill="#1a2547"/><rect x="150" y="230" width="99.0" height="14" rx="7" fill="url(#bare0)"><animate attributeName="width" values="0;99.0;99.0" keyTimes="0;.25;1" dur="6s" begin="0.2s" repeatCount="indefinite" calcMode="spline" keySplines=".2 .8 .2 1;0 0 1 1"/></rect><text x="568" y="242" class="bval" text-anchor="end">0.033</text><text x="32" y="267" class="blab">Offset-fixed</text><rect x="150" y="256" width="300" height="14" rx="7" fill="#1a2547"/><rect x="150" y="256" width="216.0" height="14" rx="7" fill="url(#bare1)"><animate attributeName="width" values="0;216.0;216.0" keyTimes="0;.25;1" dur="6s" begin="0.4s" repeatCount="indefinite" calcMode="spline" keySplines=".2 .8 .2 1;0 0 1 1"/></rect><text x="568" y="268" class="bval" text-anchor="end">0.072</text><rect x="32" y="308" width="58" height="24" rx="12" fill="#161f3d" stroke="#26345a"/><text x="61" y="325" class="chip" text-anchor="middle">RICO</text><rect x="98.4" y="308" width="101" height="24" rx="12" fill="#161f3d" stroke="#26345a"/><text x="149" y="325" class="chip" text-anchor="middle">Cohen&#x27;s κ</text><rect x="207.8" y="308" width="119" height="24" rx="12" fill="#161f3d" stroke="#26345a"/><text x="267" y="325" class="chip" text-anchor="middle">Vision LLMs</text>
 </svg>

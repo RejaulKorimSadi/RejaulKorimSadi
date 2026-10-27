@@ -1,28 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" viewBox="0 0 600 350">
-<defs><linearGradient id="gc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#132238"/></linearGradient></defs>
+<defs>
+<linearGradient id="bgc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b17"/><stop offset="1" stop-color="#111a36"/></linearGradient>
+<linearGradient id="bdc" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#FBBF24"/><stop offset=".5" stop-color="#F472B6"/><stop offset="1" stop-color="#FBBF24"/><animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="9s" repeatCount="indefinite"/></linearGradient>
+<linearGradient id="stc" x1="0" x2="1"><stop offset="0" stop-color="#FBBF24"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+<linearGradient id="barc0" x1="0" x2="1"><stop offset="0" stop-color="#FBBF24"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+<linearGradient id="barc1" x1="0" x2="1"><stop offset="0" stop-color="#FBBF24"/><stop offset="1" stop-color="#FB923C"/></linearGradient>
+<filter id="blc" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+<clipPath id="cc"><rect width="600" height="350" rx="18"/></clipPath>
+<linearGradient id="shc" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+</defs>
 <style>
-.kick{font:700 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#E69F00;letter-spacing:2.2px}
-.stat{font:700 11px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6;letter-spacing:1px}
-.title{font:750 25px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
-.body{font:400 15px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
-.big{font:800 34px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
-.bigl{font:500 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
-.blab{font:500 12.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#9aa9bb}
-.bval{font:700 13px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
-.chip{font:600 11.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#c9d6e6}
-.kvv{font:800 24px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#e8eef6}
+.kick{font:800 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#FBBF24;letter-spacing:2.4px}
+.stat{font:700 11px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#f1f5fb;letter-spacing:1.2px}
+.title{font:800 25px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#f1f5fb}
+.body{font:400 15px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#a3b1c6}
+.big{font:800 36px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif}
+.bigl{font:500 12px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#a3b1c6}
+.blab{font:500 12.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#a3b1c6}
+.bval{font:700 13px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#f1f5fb}
+.chip{font:600 11.5px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#d6def0}
+.kvv{font:800 26px 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif}
 </style>
-<clipPath id="cc"><rect width="600" height="350" rx="16"/></clipPath>
-<g clip-path="url(#cc)"><rect width="600" height="350" fill="url(#gc)"/><rect x="0" y="0" width="600" height="5" fill="#E69F00"/></g>
-<rect x=".5" y=".5" width="599" height="349" rx="16" fill="none" stroke="#24344c"/>
-<text x="32" y="44" class="kick">STUDY I · COMMITMENT</text>
-<rect x="445" y="28" width="123" height="24" rx="12" fill="none" stroke="#E69F00"/>
-<text x="506.5" y="44" class="stat" text-anchor="middle">CODE + DATA</text>
-<text x="32" y="86" class="title">The Commitment Test</text>
-<text x="32" y="116" class="title">Fix the first error, save the rest?</text>
-<text x="32" y="150" class="body">Swapping the first wrong fact halved</text><text x="32" y="174" class="body">later errors across three models,</text><text x="32" y="198" class="body">yet models knew the answer 2/111 times.</text>
-<text x="568" y="160" class="big" text-anchor="end">−44.3 pts</text>
-<text x="568" y="180" class="bigl" text-anchor="end">downstream error</text>
-<text x="32" y="239" class="blab">Original</text><rect x="150" y="228" width="300" height="14" rx="7" fill="#1d2c42"/><rect x="150" y="228" width="277.5" height="14" rx="7" fill="#7f8ea3"><animate attributeName="width" values="0;277.5" keyTimes="0;1" dur="1.4s" begin="0s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/></rect><text x="568" y="240" class="bval" text-anchor="end">92.5%</text><text x="32" y="265" class="blab">After fix</text><rect x="150" y="254" width="300" height="14" rx="7" fill="#1d2c42"/><rect x="150" y="254" width="144.3" height="14" rx="7" fill="#56B4E9"><animate attributeName="width" values="0;144.3" keyTimes="0;1" dur="1.4s" begin="0s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/></rect><text x="568" y="266" class="bval" text-anchor="end">48.1%</text>
-<rect x="32" y="310" width="94" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="79.0" y="325" class="chip" text-anchor="middle">SimpleQA</text><rect x="134" y="310" width="85" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="176.5" y="325" class="chip" text-anchor="middle">McNemar</text><rect x="227" y="310" width="148" height="22" rx="11" fill="#1a2a40" stroke="#24344c"/><text x="301.0" y="325" class="chip" text-anchor="middle">Pre-registered</text>
+<g clip-path="url(#cc)">
+<rect width="600" height="350" fill="url(#bgc)"/>
+<circle cx="560" cy="40" r="90" fill="#FBBF24" opacity=".22" filter="url(#blc)"><animate attributeName="r" values="80;110;80" dur="7s" repeatCount="indefinite"/></circle>
+<circle cx="40" cy="330" r="70" fill="#F472B6" opacity=".16" filter="url(#blc)"><animate attributeName="cx" values="40;140;40" dur="9s" repeatCount="indefinite"/></circle>
+<rect x="-260" y="-40" width="220" height="430" fill="url(#shc)" transform="skewX(-18)"><animate attributeName="x" values="-300;900;900" keyTimes="0;.45;1" dur="8s" begin="3s" repeatCount="indefinite"/></rect>
+</g>
+<rect x="1" y="1" width="598" height="348" rx="18" fill="none" stroke="url(#bdc)" stroke-width="2"/>
+<text x="32" y="46" class="kick">COMMITMENT TEST · 3 MODELS</text>
+<rect x="463" y="28" width="105" height="26" rx="13" fill="#161f3d" stroke="url(#stc)"/>
+<text x="515" y="45" class="stat" text-anchor="middle">OPEN DATA</text>
+<text x="32" y="88" class="title">The Commitment Test</text>
+<text x="32" y="118" class="title">Fix the first error, save the rest?</text>
+<text x="32" y="152" class="body">Swapping the first wrong fact halved</text><text x="32" y="176" class="body">later errors across three models,</text><text x="32" y="200" class="body">yet models knew the answer 2/111 times.</text>
+<text x="568" y="164" class="big" text-anchor="end" fill="url(#stc)">−44.3 pts</text>
+<text x="568" y="184" class="bigl" text-anchor="end">downstream error</text>
+<text x="32" y="241" class="blab">Original</text><rect x="150" y="230" width="300" height="14" rx="7" fill="#1a2547"/><rect x="150" y="230" width="277.5" height="14" rx="7" fill="url(#barc0)"><animate attributeName="width" values="0;277.5;277.5" keyTimes="0;.25;1" dur="6s" begin="0.2s" repeatCount="indefinite" calcMode="spline" keySplines=".2 .8 .2 1;0 0 1 1"/></rect><text x="568" y="242" class="bval" text-anchor="end">92.5%</text><text x="32" y="267" class="blab">After fix</text><rect x="150" y="256" width="300" height="14" rx="7" fill="#1a2547"/><rect x="150" y="256" width="144.3" height="14" rx="7" fill="url(#barc1)"><animate attributeName="width" values="0;144.3;144.3" keyTimes="0;.25;1" dur="6s" begin="0.4s" repeatCount="indefinite" calcMode="spline" keySplines=".2 .8 .2 1;0 0 1 1"/></rect><text x="568" y="268" class="bval" text-anchor="end">48.1%</text><rect x="32" y="308" width="93" height="24" rx="12" fill="#161f3d" stroke="#26345a"/><text x="78" y="325" class="chip" text-anchor="middle">SimpleQA</text><rect x="132.8" y="308" width="84" height="24" rx="12" fill="#161f3d" stroke="#26345a"/><text x="175" y="325" class="chip" text-anchor="middle">McNemar</text><rect x="225.0" y="308" width="144" height="24" rx="12" fill="#161f3d" stroke="#26345a"/><text x="297" y="325" class="chip" text-anchor="middle">Pre-registered</text>
 </svg>
