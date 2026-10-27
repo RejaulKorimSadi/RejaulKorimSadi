@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/rejaulkorimsadi"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-rejaulkorimsadi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="https://orcid.org/0009-0004-1116-2985"><img alt="ORCID" src="https://img.shields.io/badge/ORCID-0009--0004--1116--2985-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"></a>
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6604798"><img alt="SSRN" src="https://img.shields.io/badge/SSRN-preprint-8B5CF6?style=for-the-badge"></a>
+  <a href="https://arxiv.org/search/?searchtype=author&query=Rejaul+Korim+Sadi"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-papers-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white"></a>
   <a href="mailto:rejaulkorimsadi@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-rejaulkorimsadi%40gmail.com-EC4899?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
 
@@ -29,23 +29,28 @@ I research large language models, with a background in Computer Science and Engi
 </p>
 <p align="center">
   <a href="https://github.com/Taseen06/R3-LLM-Rating"><img src="assets/card-r3.svg" alt="LLMs as UI judges: 270,000 ratings, offset correction doubles agreement" width="49%"></a>
-  <a href="#selected-work"><img src="assets/card-thesis.svg" alt="B.Sc. thesis: MRI of a Mad Machine, five connected studies" width="49%"></a>
+  <a href="#open-research-code"><img src="assets/card-thesis.svg" alt="B.Sc. thesis: MRI of a Mad Machine, five connected studies" width="49%"></a>
 </p>
 
-### Selected work
+### arXiv
 
-- **From Architecture to Output: Testing the Structural Origins of Hallucination and the Amplifying Role of Data**<br>
-  Sadi, Tasin, Naeem · [Preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6604798) · [Code](https://github.com/RejaulKorimSadi/From_Architecture_to_Output_R1_Empirical_Evidence)
-- **Wrong with Confidence: Measuring Hallucination, Overconfidence and Identity-Conditioned Behaviour in Large Language Models**<br>
-  Sadi, Tasin, Naeem, D. F. Chowdhury, H. A. A. Chowdhury · [Pre-registration](https://osf.io/a9rvz) · [Data and code](https://github.com/Taseen06/R2)
-- **Characterising Divergence Between Heuristic and Language-Model Ratings of Mobile User Interface Quality**<br>
-  Sadi, Naeem, Tasin, Moosa, Emon, Rashid, Ahmed · [Data and code](https://github.com/Taseen06/R3-LLM-Rating)
-- **The Commitment Test** and **The Attention Ablation Test**<br>
-  Sadi, Tasin · Sadi, Tasin, D. F. Chowdhury · [Commitment code](https://github.com/RejaulKorimSadi/P3-Commitment-Hallucination-Test) · [Attention code](https://github.com/RejaulKorimSadi/The-Attention-Ablation-Test)
-- **Predicting Student Attrition in Competitive Programming**<br>
-  Co-author
-- **MRI of a Mad Machine: The Structural Origins of Hallucination**<br>
-  B.Sc. thesis, with T. R. Tasin and D. F. Chowdhury, supervised by G. M. Naeem
+<table>
+<tr><td width="150"><a href="https://arxiv.org/abs/2606.07537"><img alt="arXiv 2606.07537" src="https://img.shields.io/badge/arXiv-2606.07537-B31B1B?style=flat-square&logo=arxiv&logoColor=white"></a></td>
+<td><b>From Architecture to Output: Structural Origins of Hallucination in Large Language Models and the Amplifying Role of Data</b><br>Sadi, Tasin, Naeem · cs.CL · <a href="https://github.com/RejaulKorimSadi/From_Architecture_to_Output_R1_Empirical_Evidence">code</a></td></tr>
+<tr><td><a href="https://arxiv.org/abs/2609.05423"><img alt="arXiv 2609.05423" src="https://img.shields.io/badge/arXiv-2609.05423-B31B1B?style=flat-square&logo=arxiv&logoColor=white"></a></td>
+<td><b>Seeing Without Understanding: Large Language Model Evaluation of Mobile User Interface Quality, Failure Taxonomy, and Architectural Explanation</b><br>Sadi, Naeem, Tasin, Moosa, Emon, Rashid, Ahmed · cs.HC · <a href="https://github.com/Taseen06/R3-LLM-Rating">code</a></td></tr>
+<tr><td><a href="https://arxiv.org/abs/2608.28618"><img alt="arXiv 2608.28618" src="https://img.shields.io/badge/arXiv-2608.28618-B31B1B?style=flat-square&logo=arxiv&logoColor=white"></a></td>
+<td><b>Predicting Student Attrition in Competitive Programming: A Large-Scale Study Integrating Survey Insights and Global Behavioral Logs</b><br>Ruhan, Naeem, Rafi, Mim, Opi, Chowdhury, Sadi · cs.CY</td></tr>
+</table>
+
+<p><a href="https://arxiv.org/search/?searchtype=author&query=Rejaul+Korim+Sadi">All of my papers on arXiv</a></p>
+
+### Open research code
+
+- **The Attention Ablation Test** · 14 models, matched attention and state-space pairs · [repository](https://github.com/RejaulKorimSadi/The-Attention-Ablation-Test)
+- **The Commitment Test** · does fixing the first error fix the rest? · [repository](https://github.com/RejaulKorimSadi/P3-Commitment-Hallucination-Test)
+- **Wrong with Confidence** · 5 models, 5,620 answers, pre-registered · [repository](https://github.com/Taseen06/R2) · [pre-registration](https://osf.io/a9rvz)
+- **MRI of a Mad Machine** · B.Sc. thesis connecting all five studies
 
 ### Toolbox
 
