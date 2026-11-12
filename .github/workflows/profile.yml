@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths-ignore: ["assets/stats-*.svg", "assets/languages-*.svg"]
+    paths-ignore: ["assets/stats-*.svg", "assets/languages-*.svg", "assets/skyline-*.svg"]
 
 permissions:
   contents: write
@@ -19,7 +19,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Build stats cards
+      - name: Build stats cards and contribution scan
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
@@ -29,24 +29,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats-*.svg assets/languages-*.svg
+          git add assets/stats-*.svg assets/languages-*.svg assets/skyline-*.svg
           git diff --cached --quiet || (git commit -m "Update stats cards" && git push)
 
-  snake:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/snake-light.svg?palette=github-light&color_snake=#C4372A&color_dots=#ECE5D8,#BFE0DA,#7CC2B8,#2F978A,#0D7A6E
-            dist/snake-dark.svg?palette=github-dark&color_snake=#FF5D4F&color_dots=#141B24,#123B37,#1B6B61,#2FA597,#6FE3D3
-      - name: Publish to output branch
-        run: |
-          cd dist
-          git init -b output
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Update contribution snake"
-          git push --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" output

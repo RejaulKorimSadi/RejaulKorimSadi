@@ -68,7 +68,31 @@ I study why large language models state false things in the same confident tone 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/s5-dark.svg">
-  <img src="assets/s5-light.svg" alt="05. Instruments" width="100%">
+  <img src="assets/s5-light.svg" alt="05. How I work" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/principles-dark.svg">
+  <img src="assets/principles-light.svg" alt="How I work: hypotheses fixed before scoring; blind, double-scored responses; all outputs, sheets and code released; failed predictions reported as plainly as those that held." width="100%">
+</picture>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/s6-dark.svg">
+  <img src="assets/s6-light.svg" alt="06. The road so far" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-dark.svg">
+  <img src="assets/timeline-light.svg" alt="Timeline: began B.Sc. in CSE (Jan 2023); AI Solutions Engineer at IntelliGency Solutions (Oct 2024); thesis research begins (Sep 2025); founded ChromaWave (Oct 2025); EFAST 2026 presentation (Jun 2026); four papers in 2026; The Cellular Data Center (Nov 2026); B.Sc. complete (Dec 2026)." width="100%">
+</picture>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/s7-dark.svg">
+  <img src="assets/s7-light.svg" alt="07. Instruments" width="100%">
 </picture>
 
 <picture>
@@ -81,8 +105,8 @@ Outside research, I build applied AI systems: for IntelliGency Solutions (US) I 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/s6-dark.svg">
-  <img src="assets/s6-light.svg" alt="06. Signal" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/s8-dark.svg">
+  <img src="assets/s8-light.svg" alt="08. Signal" width="100%">
 </picture>
 
 <p align="center">
@@ -90,8 +114,8 @@ Outside research, I build applied AI systems: for IntelliGency Solutions (US) I 
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RejaulKorimSadi/RejaulKorimSadi/output/snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/RejaulKorimSadi/RejaulKorimSadi/output/snake-light.svg" alt="Contribution graph animation" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/skyline-dark.svg">
+  <img src="assets/skyline-light.svg" alt="Contribution scan: every day of the last 12 months drawn as a 3D tower, updated daily" width="100%">
 </picture>
 
 <br><br>
